@@ -50,7 +50,6 @@ function addToList(task: Task) {
 }
 
 
-
 function saveTasks(){
     localStorage.setItem("TASKS", JSON.stringify(tasks));
 }
